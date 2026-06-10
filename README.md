@@ -6,7 +6,7 @@ A deep learning-powered web app that identifies cricket batting shots from image
 ## 🌐 Live Demo
 
 👉 **Try it here:**  
-https://YOUR-RENDER-LINK-HERE.onrender.com
+https://cricket-shot-detector.onrender.com
 
 ---
 ## 📸 Demo
