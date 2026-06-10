@@ -18,7 +18,7 @@ Built with TensorFlow/Keras, deployed with FastAPI.
 | Hardest Class | Legglance-Flick (83% recall) |
 
 ## Confusion Matrix
-![Confusion Matrix](outputs/confusion_matrix.png)
+![Confusion Matrix](assets/confusion_matrix.png)
 
 ## Model Architecture
 - Base: MobileNetV2 pretrained on ImageNet
