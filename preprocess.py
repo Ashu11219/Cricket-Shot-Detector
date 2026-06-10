@@ -3,7 +3,7 @@ import tensorflow as tf
 def preprocess_data():
     data_dir = "data"
     IMG_SIZE = (224, 224)
-    BATCH_SIZE = 64
+    BATCH_SIZE = 128
 
 
     train_ds = tf.keras.utils.image_dataset_from_directory(
@@ -13,7 +13,8 @@ def preprocess_data():
         seed=42,
         image_size = IMG_SIZE,
         batch_size = BATCH_SIZE,
-        shuffle = True
+        shuffle = True,
+        verbose = False
     )
 
     val_and_test_ds = tf.keras.utils.image_dataset_from_directory(
@@ -23,7 +24,8 @@ def preprocess_data():
         seed=42,
         image_size = IMG_SIZE,
         batch_size = BATCH_SIZE,
-        shuffle = False
+        shuffle = True,
+        verbose = False
     )
 
     val_batches = int(len(val_and_test_ds) / 2)
