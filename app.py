@@ -29,7 +29,7 @@ async def predict(file: UploadFile = File(...)):
     DISPLAY_NAMES = {
         "drive": "Drive",
         "legglance-flick": "Flick",
-        "pullshot": "Pull Shot",
+        "pullshot": "Pull",
         "sweep": "Sweep"
     }
 
