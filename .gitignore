@@ -4,3 +4,4 @@ venv/
 .venv/
 test/
 data/
+.idea/
